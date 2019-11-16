@@ -1,2 +1,5 @@
 # Drumkit
- DrumKit created for JavaScript practice.
+ DrumKit created for vanilla JavaScript practice.
+- NO API
+- NO FRAMEWORK
+- NO LIBRARY
