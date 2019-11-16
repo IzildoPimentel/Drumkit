@@ -3,13 +3,8 @@ const playSound = function(e) {
     const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);    // Select key
     if (!audio) return;              // Stop the function from running all together
     audio.currentTime = 0;           // Rewind to the start
-    audio.play();                    // Play the sound
-    if (key == 51) {
-        key.classList.add('playing2');    // Add the css class for effect      
-    } else {
-        key.classList.add('playing');     // Add the css class for effect      
-    }
-    
+    audio.play();                    // Play the sound        
+    key.classList.add('playing');    // Add the css class for effect          
 }
 
 const removeTransition = function(e) {
